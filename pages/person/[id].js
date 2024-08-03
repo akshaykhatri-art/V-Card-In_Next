@@ -12,7 +12,7 @@ const PersonPage = ({ person, error }) => {
   return (
     <div>
       <Head>
-        <title>{person.Forename}'s V Card</title>
+        <title>{person.Forename}s V Card</title>
         <meta name="description" content={description} />
         <meta property="og:title" content={person.Forename} />
         <meta property="og:description" content={description} />
