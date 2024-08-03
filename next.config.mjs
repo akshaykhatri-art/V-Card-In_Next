@@ -1,4 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+export default {
+  reactStrictMode: true,
+  env: {
+    NEXT_PUBLIC_API_URL: "http://localhost:3000", // adjust as necessary
+  },
+};
